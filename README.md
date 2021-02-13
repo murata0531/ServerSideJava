@@ -1,3 +1,3 @@
 # ServerSideJava
 
-development : net beans
+development : net beans & Java Servlet
