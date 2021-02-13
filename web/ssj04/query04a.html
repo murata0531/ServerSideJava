@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>書籍情報登録フォーム</title>
+        <meta charset="Shift_JIS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="background:#cccccc">書籍情報登録フォーム</h1>
+        <form method="GET" action="query04a.jsp">
+            
+            <table border="1" >
+                
+                <tr><th>項目</th><th>入力欄</th></tr>
+                <tr><td>書籍名</td><td><input type="text" name="書籍名" size="100"></td></tr>
+                <tr><td>著者名</td><td><input type="text" name="著者名" size="100"></td></tr>
+                <tr><td>出版社</td><td><input type="text" name="出版社" size="100"></td></tr>
+                <tr><td>定価</td><td><input type="text" name="定価"> 円(税別)</td></tr>
+                <tr><td>ISBN</td><td><input type="text" name="ISBN" size="70"><font color="red"> ※ISBNから入力</font></td></tr>
+                  
+            </table>
+            
+            <p><input type="submit" value="登録"><input type="reset" value="取消"></p>
+        </form>
+    </body>
+</html>

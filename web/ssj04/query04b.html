@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>会員情報登録フォーム</title>
+        <meta charset="Shift_JIS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="background:#cccccc">会員情報登録フォーム</h1>
+        <form action="query04b.jsp" method="GET">
+            
+            <table border="1">
+                
+                <tr><th>項目</th><th>入力欄</th></tr>
+                <tr><td>氏名</td><td><input type="text" name="氏名" size="40"></td></tr>
+                <tr><td>性別</td><td><input type="radio" name="性別" value="男性" checked>男性<input type="radio" name="性別" value="女性">女性</td></tr>
+                <tr><td>郵便番号</td><td>〒<input type="text" name="郵便番号" size="30"></td></tr>
+                <tr><td>住所</td><td><input type="text" name="住所" size="60"></td></tr>
+                  
+            </table>
+            
+            <p><input type="submit" value="登録"><input type="reset" value="取消"></p>
+        </form>
+    </body>
+</html>
